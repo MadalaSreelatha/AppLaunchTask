@@ -52,7 +52,7 @@ class SignUpViewController: UIViewController {
         }
         
     }
-
+    
     func showAlert(message: String) {
         let alert = UIAlertController(title: "App Launch", message: message, preferredStyle: UIAlertController.Style.alert)
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
@@ -98,7 +98,7 @@ class SignUpViewController: UIViewController {
             let firstname = firstNameTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines)
             let lastname = lastNameTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines)
             let email = emailTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines)
-                        
+            
             var stmt: OpaquePointer?
             let queryString = "INSERT INTO SignUpDetails (firstname, lastname, email) VALUES (?,?,?)"
             if sqlite3_prepare(db, queryString, -1, &stmt, nil) != SQLITE_OK{
