@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (5.4.1)
+  - OpenWeatherMapKit (0.2.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - OpenWeatherMapKit
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - OpenWeatherMapKit
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 99b3f4bb87261f9ed805ade158c4e9c451f4a8d0
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  OpenWeatherMapKit: b348bc63affd808b114467a77488eb12a523f0b5
+  SwiftyJSON: 1817529ff49abe4d8a49ce8549aeb8a30ad162ee
+
+PODFILE CHECKSUM: 7ba2402ee2fb4d231008d675c0ffc42bd168e01c
+
+COCOAPODS: 1.10.1

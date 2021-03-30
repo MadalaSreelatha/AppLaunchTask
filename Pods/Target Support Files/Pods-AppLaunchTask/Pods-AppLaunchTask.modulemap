@@ -1,0 +1,6 @@
+framework module Pods_AppLaunchTask {
+  umbrella header "Pods-AppLaunchTask-umbrella.h"
+
+  export *
+  module * { export * }
+}

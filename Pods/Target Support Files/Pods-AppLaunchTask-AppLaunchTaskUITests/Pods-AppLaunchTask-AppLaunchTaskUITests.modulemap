@@ -1,0 +1,6 @@
+framework module Pods_AppLaunchTask_AppLaunchTaskUITests {
+  umbrella header "Pods-AppLaunchTask-AppLaunchTaskUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
